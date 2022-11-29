@@ -1,0 +1,43 @@
+[22,27,16,2,18,6] -> Insertion Sort
+
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+Dizide en küçük eleman 2 olduğu  için 22 ile yer değiştirir.
+[2,27,16,22,18,6]
+
+İkinci küçük eleman 6 olduğu için 27 ile yer değiştirir.
+[2,6,16,22,18,27]
+
+Üçüncü en küçük eleman 16'dır ve yeri sabittir.
+
+Dördüncü en küçük eleman 18'dir ve 22 ile yer değiştirir.
+>>[2,6,16,18,22,27]
+
+Beşinci eleman 22'dir işlem yapılmaz.
+Altıncı eleeman 27'dir işlem yapılmaz.
+
+Big-O gösterimini yazınız.
+n tane elemanlı bir listede n+(n-1)+(n-2)+(n-3)+(n-4)+1 kadar işlem yapılacaktır.
+Dolayısıyla [n(n+1)]/2'den Big-O notation dominant faktörü n^^2'dir.
+
+>>O(n^^2)
+
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+18, en sonda ya da en başta olmadığı için avarege case durumuna girer.
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+1- En küçük veri 2 olduğu için 7 ile yer değiştirir.
+[2,3,5,8,7,9,4,15,6]
+
+2-En küçük ikinci veri 3 olduğu için işlem yapılmaz.
+[2,3,5,8,7,9,4,15,6]
+
+3-En küçük üçüncü veri 4 olduğu için 5 ile yer değiştirir.
+[2,3,4,8,7,9,5,15,6]
+
+4-En küçük dördüncü veri 5 olduğu için 8 ile yer değiştirir.
+[2,3,4,5,7,9,8,15,6]
+
+www.patika.dev
