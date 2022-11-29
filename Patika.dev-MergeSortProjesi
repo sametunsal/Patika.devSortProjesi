@@ -1,0 +1,21 @@
+Proje 2
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+1- [16,21,11] ve [8,12,22] olarak ikiye ayrılır. >> n/2
+
+2- [16,21,11] >> [16,21] ve [11]                                          [8,12,22] >> [8,12] ve [22] >> n/4
+
+3- [16,21] >> [16] ve [21] olarak ayrılır, bir de [11] var                [8,12] >> [8] ve [12] olarak ayrılır, bir de [22] var >> n/8
+
+4- [16,21] olarak sıralanır, [11] de başa gelir.                          [8,12]  olarak sıralanır, [22] de sona gelir.
+   [11,16,21] olur                                                        [8,12,22] olur.
+   
+5- En son olarak  iki ayrı veri birleşip [8,11,12,16,21,22] olur.
+
+Her adımda işlem sayısı yarıya düşer. 2^^x = n dersek. x= logn olur
+Big-0 gösterimi de O(logn) olur.
+
+www.patika.dev
